@@ -1,0 +1,51 @@
+.Large { font-size: 144% }
+.large { font-size: 120% }
+.small { font-size: 90% }
+.footnotesize { font-size: 80% }
+.scriptsize { font-size: 70% }
+.tiny { font-size: 60% }
+
+.black { color: black; }
+.red { color: #CC3300; }
+.winered {color:#900012;}
+.blue { color: #003366; }
+.green { color: #728302; }
+.yellow { color: #FFD960; }
+.orange { color: #F09905; }
+.purple { color: #993399; }
+.gray { color: #666666; }
+.grey { color: #B5B5B5; }
+
+.bold { font-weight: bold; }
+.bolder { font-weight: bolder; }
+
+
+h1, h2, h3, h4 {
+  font-family: 'Yanone Kaffeesatz';
+  font-weight: normal;
+  color: rgba(134,38,51,1);
+}
+
+.inverse {
+  background-color: rgba(134,38,51,1);
+  color: #d6d6d6;
+  text-shadow: 0 0 20px #333;
+}
+
+.inverse h1, .inverse h2, .inverse h3, .inverse h4, .inverse a, inverse a > code {
+  color: #d6d6d6;
+}
+
+/*a, a > code {
+  color: #88398a;
+}
+*/
+.italic {
+  font-style: italic;
+  color: #A2372E;
+}
+
+.remark-code, .remark-inline-code {
+  color:#A2372E;
+}
+
